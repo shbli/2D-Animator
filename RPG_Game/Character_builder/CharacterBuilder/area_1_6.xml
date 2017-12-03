@@ -1,0 +1,17 @@
+<map name="" background="ground_1.svg">
+ <all-map-emlemnts>
+
+ <map-element to-xml="" x="0" y="0" z="0" type="Dummy" r="0" name="Plant Normal" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="173" y="455" z="0" type="Dummy" r="0" name="Plant Normal_1" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="280" y="144" z="0" type="Dummy" r="0" name="Plant Normal_1" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="193" y="226" z="0" type="Dummy" r="0" name="Plant Normal_2" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="758" y="256" z="0" type="Dummy" r="0" name="Plant Normal_2" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="535" y="367" z="0" type="Dummy" r="0" name="Plant Normal_3" svg="plant_red.svg"/>
+ <map-element to-xml="" x="743" y="560" z="0" type="Dummy" r="0" name="Plant Normal_3" svg="plant_red.svg"/>
+ <map-element to-xml="" x="718" y="112" z="0" type="Dummy" r="0" name="Plant Normal_4" svg="plant_red.svg"/>
+ <map-element to-xml="" x="348" y="558" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+ <map-element to-xml="" x="800" y="380" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+ <map-element to-xml="area_1_1.xml" x="504" y="32" z="0" type="Gate" r="90" name="Gate Down" svg="arrow.svg"/>
+  </all-map-emlemnts>
+
+</map>

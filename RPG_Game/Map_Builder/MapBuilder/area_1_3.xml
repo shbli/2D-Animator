@@ -1,0 +1,11 @@
+<map name="" background="ground_1.svg">
+ <enemies contains_random_battle="0"/>
+ <all-map-emlemnts>
+  <map-element to-xml="" x="483" y="194" z="0" type="Shop" r="0" name="Shop" svg="outdoor_shop.svg"/>
+  <map-element to-xml="" x="754" y="454" z="0" type="House" r="0" name="Home" svg="straw_home.svg"/>
+  <map-element to-xml="" x="355" y="390" z="0" type="Dummy3D" r="0" name="Plant" svg="plant_red.svg"/>
+  <map-element to-xml="" x="820" y="588" z="0" type="Info" r="10" name="Sign" svg="sign.svg"/>
+  <map-element to-xml="" x="355" y="441" z="0" type="Info" r="0" name="Sign_2" svg="sign.svg"/>
+  <map-element to-xml="area_1_2.xml" x="366" y="684" z="0" type="Gate" r="-91" name="Gate" svg="arrow.svg"/>
+ </all-map-emlemnts>
+</map>

@@ -1,0 +1,267 @@
+<character speed="200" type="" circule-y-offset="98" name="">
+ <joint xAnch="0.5" yAnch="0" y="0" z="0" r="0" name="Main" w1="0" w2="0">
+  <svg-files/>
+  <animations>
+   <breathing>
+    <animation-step end-time="0.5" rotation-angle="0" end-y="0" svg-index="0"/>
+   </breathing>
+   <walking>
+    <animation-step end-time="0.5" rotation-angle="0" end-y="0" svg-index="0"/>
+   </walking>
+   <jumping>
+    <animation-step end-time="0.5" rotation-angle="0" end-y="0" svg-index="0"/>
+   </jumping>
+   <attacking>
+    <animation-step end-time="0.5" rotation-angle="0" end-y="0" svg-index="0"/>
+   </attacking>
+   <running>
+    <animation-step end-time="0.5" rotation-angle="0" end-y="0" svg-index="0"/>
+   </running>
+  </animations>
+  <joint xAnch="0.5" yAnch="0" y="0" z="0" r="0" name="Body" w1="0" w2="0">
+   <svg-files>
+    <svg file="body.svg"/>
+   </svg-files>
+   <animations>
+    <breathing>
+     <animation-step end-time="0.25" rotation-angle="0" end-y="1" svg-index="0"/>
+     <animation-step end-time="0.5" rotation-angle="0" end-y="0" svg-index="0"/>
+    </breathing>
+    <walking/>
+    <jumping/>
+    <attacking/>
+    <running/>
+   </animations>
+   <joint xAnch="0.5" yAnch="0" y="-60" z="1" r="0" name="Head" w1="0" w2="0">
+    <svg-files>
+     <svg file="head.svg"/>
+    </svg-files>
+    <animations>
+     <breathing>
+      <animation-step end-time="0.25" rotation-angle="0" end-y="-67" svg-index="0"/>
+      <animation-step end-time="0.5" rotation-angle="0" end-y="-68" svg-index="0"/>
+     </breathing>
+     <walking>
+      <animation-step end-time="0.125" rotation-angle="0" end-y="-68" svg-index="0"/>
+      <animation-step end-time="0.25" rotation-angle="0" end-y="-64" svg-index="0"/>
+      <animation-step end-time="0.375" rotation-angle="0" end-y="-68" svg-index="0"/>
+      <animation-step end-time="0.5" rotation-angle="0" end-y="-64" svg-index="0"/>
+     </walking>
+     <jumping/>
+     <attacking/>
+     <running/>
+    </animations>
+    <joint xAnch="0.5" yAnch="0" y="48" z="0" r="110" name="Hair space" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <jumping/>
+      <attacking/>
+      <running/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0" y="5" z="-1" r="-120" name="Hair" w1="0" w2="0">
+      <svg-files>
+       <svg file="hair.svg"/>
+      </svg-files>
+      <animations>
+       <breathing>
+        <animation-step end-time="0.25" rotation-angle="-120" end-y="5" svg-index="0"/>
+        <animation-step end-time="0.5" rotation-angle="-118" end-y="5" svg-index="0"/>
+       </breathing>
+       <walking>
+        <animation-step end-time="0.125" rotation-angle="-120" end-y="5" svg-index="0"/>
+        <animation-step end-time="0.25" rotation-angle="-115" end-y="7" svg-index="0"/>
+        <animation-step end-time="0.375" rotation-angle="-120" end-y="5" svg-index="0"/>
+        <animation-step end-time="0.5" rotation-angle="-115" end-y="7" svg-index="0"/>
+       </walking>
+       <jumping/>
+       <attacking/>
+       <running/>
+      </animations>
+     </joint>
+    </joint>
+   </joint>
+   <joint xAnch="0.5" yAnch="0" y="25" z="0" r="70" name="LeftArmSpace" w1="0" w2="0">
+    <svg-files/>
+    <animations>
+     <breathing/>
+     <walking/>
+     <jumping/>
+     <attacking/>
+     <running/>
+    </animations>
+    <joint xAnch="0.5" yAnch="0.1" y="0" z="0" r="-70" name="LeftArm" w1="0" w2="0">
+     <svg-files>
+      <svg file="lshoulder.svg"/>
+     </svg-files>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.25" rotation-angle="-71" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.5" rotation-angle="-70" end-y="0" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.125" rotation-angle="-70" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.25" rotation-angle="-95" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.375" rotation-angle="-70" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.5" rotation-angle="-45" end-y="0" svg-index="0"/>
+      </walking>
+      <jumping/>
+      <attacking/>
+      <running/>
+     </animations>
+     <joint xAnch="0.24" yAnch="0" y="25" z="0" r="0" name="LeftHand" w1="0" w2="0">
+      <svg-files>
+       <svg file="lhand.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <jumping/>
+       <attacking/>
+       <running/>
+      </animations>
+     </joint>
+    </joint>
+   </joint>
+   <joint xAnch="0.5" yAnch="0" y="22" z="-1" r="-70" name="RightArmSpace" w1="0" w2="0">
+    <svg-files/>
+    <animations>
+     <breathing/>
+     <walking/>
+     <jumping/>
+     <attacking/>
+     <running/>
+    </animations>
+    <joint xAnch="0.5" yAnch="0.1" y="0" z="0" r="70" name="RightArm" w1="0" w2="0">
+     <svg-files>
+      <svg file="lshoulder.svg"/>
+     </svg-files>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.25" rotation-angle="71" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.5" rotation-angle="70" end-y="0" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.125" rotation-angle="70" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.25" rotation-angle="95" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.375" rotation-angle="70" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.5" rotation-angle="35" end-y="0" svg-index="0"/>
+      </walking>
+      <jumping/>
+      <attacking/>
+      <running/>
+     </animations>
+     <joint xAnch="0.3" yAnch="0" y="25" z="0" r="0" name="RightHand" w1="0" w2="0">
+      <svg-files>
+       <svg file="rhand.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <jumping/>
+       <attacking/>
+       <running/>
+      </animations>
+     </joint>
+    </joint>
+   </joint>
+   <joint xAnch="0.5" yAnch="0.1" y="51" z="-1" r="-6" name="LeftLeg" w1="0" w2="0">
+    <svg-files>
+     <svg file="lleg.svg"/>
+    </svg-files>
+    <animations>
+     <breathing>
+      <animation-step end-time="0.25" rotation-angle="-7" end-y="50" svg-index="0"/>
+      <animation-step end-time="0.5" rotation-angle="-7" end-y="51" svg-index="0"/>
+     </breathing>
+     <walking>
+      <animation-step end-time="0.125" rotation-angle="10" end-y="50" svg-index="0"/>
+      <animation-step end-time="0.25" rotation-angle="10" end-y="40" svg-index="0"/>
+      <animation-step end-time="0.375" rotation-angle="-5" end-y="40" svg-index="0"/>
+      <animation-step end-time="0.5" rotation-angle="-7" end-y="50" svg-index="0"/>
+     </walking>
+     <jumping/>
+     <attacking/>
+     <running/>
+    </animations>
+    <joint xAnch="0.5" yAnch="0" y="36" z="-1" r="-5" name="LeftFeetSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <jumping/>
+      <attacking/>
+      <running/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0" y="0" z="0" r="11" name="LeftFeet" w1="0" w2="0">
+      <svg-files>
+       <svg file="rfeet.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <jumping/>
+       <attacking/>
+       <running/>
+      </animations>
+     </joint>
+    </joint>
+   </joint>
+   <joint xAnch="0.5" yAnch="0.1" y="51" z="-1" r="9" name="RightLeg" w1="0" w2="0">
+    <svg-files>
+     <svg file="lleg.svg"/>
+    </svg-files>
+    <animations>
+     <breathing>
+      <animation-step end-time="0.25" rotation-angle="10" end-y="50" svg-index="0"/>
+      <animation-step end-time="0.5" rotation-angle="10" end-y="51" svg-index="0"/>
+     </breathing>
+     <walking>
+      <animation-step end-time="0.125" rotation-angle="-7" end-y="50" svg-index="0"/>
+      <animation-step end-time="0.25" rotation-angle="0" end-y="50" svg-index="0"/>
+      <animation-step end-time="0.375" rotation-angle="10" end-y="50" svg-index="0"/>
+      <animation-step end-time="0.5" rotation-angle="10" end-y="40" svg-index="0"/>
+     </walking>
+     <jumping/>
+     <attacking/>
+     <running/>
+    </animations>
+    <joint xAnch="0.5" yAnch="0" y="36" z="-1" r="-2" name="RightFeetspace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <jumping/>
+      <attacking/>
+      <running/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0" y="0" z="0" r="-7" name="RightFeet" w1="0" w2="0">
+      <svg-files>
+       <svg file="rfeet.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <jumping/>
+       <attacking/>
+       <running/>
+      </animations>
+     </joint>
+    </joint>
+   </joint>
+  </joint>
+  <joint xAnch="0.5" yAnch="0" y="85" z="-8" r="0" name="" w1="0" w2="0">
+   <svg-files>
+    <svg file="shade.svg"/>
+   </svg-files>
+   <animations>
+    <breathing/>
+    <walking/>
+    <jumping/>
+    <attacking/>
+    <running/>
+   </animations>
+  </joint>
+ </joint>
+</character>

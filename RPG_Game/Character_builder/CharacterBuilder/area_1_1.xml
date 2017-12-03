@@ -1,0 +1,17 @@
+<map name="Map 1_1" background="ground_1.svg">
+ <enemies contains_random_battle="0"/>
+ <all-map-emlemnts>
+  <map-element to-xml="area_1_2.xml" x="960" y="392" z="0" type="Gate" r="0" name="gate" svg="arrow.svg"/>
+  <map-element to-xml="" x="1282" y="563" z="0" type="House" r="0" name="house" svg="straw_home.svg"/>
+  <map-element to-xml="" x="506" y="484" z="0" type="Dummy3D" r="0" name="sign" svg="sign.svg"/>
+  <map-element to-xml="" x="224" y="462" z="0" type="Shop" r="0" name="shop" svg="outdoor_shop.svg"/>
+  <map-element to-xml="" x="693" y="233" z="0" type="Dummy" r="0" name="plant" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="571" y="53" z="0" type="Dummy" r="0" name="plant_1" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="802" y="475" z="0" type="Dummy" r="0" name="plant_2" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="302" y="364" z="0" type="Dummy" r="0" name="plant_3" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="173" y="363" z="0" type="Dummy" r="0" name="plant_4" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="527" y="682" z="0" type="Dummy" r="0" name="plant_5" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="143" y="678" z="0" type="Dummy" r="0" name="plant_6" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="662" y="583" z="0" type="House" r="0" name="house" svg="home.svg"/>
+ </all-map-emlemnts>
+</map>

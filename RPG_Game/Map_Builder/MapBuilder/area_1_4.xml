@@ -1,0 +1,14 @@
+<map name="" background="ground_1.svg">
+ <enemies contains_random_battle="0"/>
+ <all-map-emlemnts>
+  <map-element to-xml="" x="54" y="33" z="0" type="Dummy" r="0" name="Plant_1" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="574" y="283" z="0" type="Dummy" r="0" name="Plant_2" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="750" y="515" z="0" type="Dummy" r="0" name="Plant_3" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="853" y="119" z="0" type="Dummy" r="0" name="Plant_4" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="116" y="300" z="0" type="Dummy" r="0" name="Plant_5" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="239" y="588" z="0" type="Dummy" r="0" name="Plant_6" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="934" y="38" z="0" type="Dummy3D" r="0" name="Rock" svg="rock01.svg"/>
+  <map-element to-xml="" x="391" y="190" z="0" type="Dummy" r="0" name="Plantred" svg="plant_red.svg"/>
+  <map-element to-xml="area_1_2.xml" x="481" y="42" z="0" type="Gate" r="90" name="Gate Down" svg="arrow.svg"/>
+ </all-map-emlemnts>
+</map>

@@ -1,0 +1,10 @@
+<weapon fireFromFarAway="0" y-anch="" type="ninja" x-anch="" name="Katana" power="normal" super-attack-xml="" svg="">
+ <Before sound="">
+  <effect blur="0" x-anchor="0" y-anchor="0.5" svg="knife_effect_1.svg">
+   <effect-step x="1" opacity="0" y="1" sx="1.5" sy="1.5" end-t="0.05" r="0"/>
+   <effect-step x="5" opacity="100" y="1" sx="5" sy="0.5" end-t="0.1" r="0"/>
+   <effect-step x="10" opacity="0" y="1" sx="0.1" sy="0.5" end-t="0.15" r="0"/>
+  </effect>
+ </Before>
+ <After sound=""/>
+</weapon>

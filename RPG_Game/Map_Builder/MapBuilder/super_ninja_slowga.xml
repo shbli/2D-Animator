@@ -1,0 +1,85 @@
+<super-attack slow-down="1" affect-all="1" provoke="0" hp-reduction="" reset-seconds="60" shake-screen-timeout="" hp--="0" freeze="0" button-svg="ninja_power.svg" shake-screen="0" freeze-timeout="" slow-down-timeout="6" power="0" hp-reduction-timout="">
+ <Before sound=""/>
+ <After sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_1.svg">
+   <effect-step x="0" opacity="0" y="0" sx="2" sy="2" end-t="0" r="360"/>
+   <effect-step x="0" opacity="100" y="0" sx="1" sy="1" end-t="0.5" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="2" sy="2" end-t="1.1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_1.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0" sy="0" end-t="0" r="-360"/>
+   <effect-step x="0" opacity="100" y="0" sx="1" sy="1" end-t="0.5" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="3" sy="3" end-t="1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_1.svg">
+   <effect-step x="0" opacity="0" y="0" sx="5" sy="5" end-t="0" r="0"/>
+   <effect-step x="0" opacity="100" y="0" sx="0.5" sy="0.5" end-t="0.5" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="5" sy="5" end-t="0.7" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_1.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0.8" sy="0.8" end-t="0" r="0"/>
+   <effect-step x="0" opacity="100" y="0" sx="0.9" sy="0.9" end-t="0.8" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="1" sy="1" end-t="1.1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="-400" opacity="0" y="800" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="-400" opacity="100" y="0" sx="1" sy="1" end-t="0.2" r="0"/>
+   <effect-step x="-400" opacity="0" y="-100" sx="0.8" sy="0.8" end-t="1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="400" opacity="0" y="650" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="400" opacity="100" y="0" sx="1" sy="1" end-t="0.25" r="0"/>
+   <effect-step x="400" opacity="0" y="-100" sx="0.8" sy="0.8" end-t="1.1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="-300" opacity="0" y="700" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="-300" opacity="100" y="50" sx="1" sy="1" end-t="0.15" r="0"/>
+   <effect-step x="-300" opacity="0" y="-20" sx="0.8" sy="0.8" end-t="0.9" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="450" opacity="0" y="500" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="450" opacity="100" y="-200" sx="1" sy="1" end-t="0.3" r="0"/>
+   <effect-step x="450" opacity="0" y="-250" sx="0.8" sy="0.8" end-t="1.2" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="-350" opacity="0" y="450" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="-350" opacity="100" y="-50" sx="1" sy="1" end-t="0.2" r="0"/>
+   <effect-step x="-350" opacity="0" y="-150" sx="0.8" sy="0.8" end-t="1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="250" opacity="0" y="650" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="250" opacity="100" y="0" sx="1" sy="1" end-t="0.25" r="0"/>
+   <effect-step x="250" opacity="0" y="-50" sx="0.8" sy="0.8" end-t="1.1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="-250" opacity="0" y="700" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="-250" opacity="100" y="50" sx="1" sy="1" end-t="0.15" r="0"/>
+   <effect-step x="-250" opacity="0" y="0" sx="0.8" sy="0.8" end-t="0.9" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="400" opacity="0" y="500" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="400" opacity="100" y="-50" sx="1" sy="1" end-t="0.3" r="0"/>
+   <effect-step x="400" opacity="0" y="-150" sx="0.8" sy="0.8" end-t="1.2" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="-350" opacity="0" y="600" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="-350" opacity="100" y="160" sx="1" sy="1" end-t="0.2" r="0"/>
+   <effect-step x="-350" opacity="0" y="100" sx="0.8" sy="0.8" end-t="1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="250" opacity="0" y="700" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="250" opacity="100" y="200" sx="1" sy="1" end-t="0.25" r="0"/>
+   <effect-step x="250" opacity="0" y="150" sx="0.8" sy="0.8" end-t="1.1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="-250" opacity="0" y="800" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="-250" opacity="100" y="180" sx="1" sy="1" end-t="0.15" r="0"/>
+   <effect-step x="-250" opacity="0" y="120" sx="0.8" sy="0.8" end-t="0.9" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slowga_2.svg">
+   <effect-step x="400" opacity="0" y="750" sx="1.2" sy="1.2" end-t="0" r="0"/>
+   <effect-step x="400" opacity="100" y="180" sx="1" sy="1" end-t="0.3" r="0"/>
+   <effect-step x="400" opacity="0" y="90" sx="0.8" sy="0.8" end-t="1.2" r="0"/>
+  </effect>
+ </After>
+</super-attack>

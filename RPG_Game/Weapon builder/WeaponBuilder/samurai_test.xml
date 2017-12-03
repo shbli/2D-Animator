@@ -1,0 +1,60 @@
+<character type="warrior" name="samurai">
+ <openEye x="0" y="0" z="0" file=""/>
+ <closedEye x="0" y="0" z="0" file=""/>
+ <joint z="0" name="" w1="1" w2="1">
+  <svg-files>
+   <svg file="body.svg"/>
+  </svg-files>
+  <animations>
+   <breathing/>
+   <walking/>
+   <jumping/>
+   <attacking/>
+   <running/>
+  </animations>
+  <bone z="0" r="180" name="30px">
+   <svg-files>
+    <svg file="px30.svg"/>
+   </svg-files>
+   <animations>
+    <breathing/>
+    <walking/>
+    <jumping/>
+    <attacking/>
+    <running/>
+   </animations>
+   <joint z="0" name="" w1="1" w2="1">
+    <svg-files/>
+    <animations>
+     <breathing/>
+     <walking/>
+     <jumping/>
+     <attacking/>
+     <running/>
+    </animations>
+    <bone z="0" r="0" name="head">
+     <svg-files>
+      <svg file="head.svg"/>
+     </svg-files>
+     <animations>
+      <breathing/>
+      <walking/>
+      <jumping/>
+      <attacking/>
+      <running/>
+     </animations>
+     <joint z="0" name="" w1="1" w2="1">
+      <svg-files/>
+      <animations>
+       <breathing/>
+       <walking/>
+       <jumping/>
+       <attacking/>
+       <running/>
+      </animations>
+     </joint>
+    </bone>
+   </joint>
+  </bone>
+ </joint>
+</character>

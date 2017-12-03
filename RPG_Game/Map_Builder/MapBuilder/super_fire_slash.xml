@@ -1,0 +1,71 @@
+<super-attack slow-down="0" affect-all="0" provoke="0" hp-reduction="" reset-seconds="35" shake-screen-timeout="0.7" hp--="0" freeze="0" button-svg="fire_attack.svg" shake-screen="1" freeze-timeout="" slow-down-timeout="" power="20" hp-reduction-timout="">
+ <Before sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_3.svg">
+   <effect-step x="0" opacity="0" y="-30" sx="0" sy="0" end-t="0" r="0"/>
+   <effect-step x="0" opacity="100" y="-30" sx="0.5" sy="0.5" end-t="0.5" r="0"/>
+   <effect-step x="0" opacity="0" y="-90" sx="1" sy="1" end-t="1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_3.svg">
+   <effect-step x="20" opacity="0" y="-30" sx="0" sy="0" end-t="0.2" r="0"/>
+   <effect-step x="20" opacity="60" y="-30" sx="0.6" sy="0.6" end-t="0.7" r="0"/>
+   <effect-step x="20" opacity="0" y="-90" sx="1.1" sy="1.1" end-t="1.2" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_3.svg">
+   <effect-step x="40" opacity="0" y="-30" sx="0" sy="0" end-t="0.4" r="0"/>
+   <effect-step x="40" opacity="40" y="-30" sx="0.7" sy="0.7" end-t="0.9" r="0"/>
+   <effect-step x="40" opacity="0" y="-90" sx="1.2" sy="1.2" end-t="1.4" r="0"/>
+  </effect>
+ </Before>
+ <After sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_2.svg">
+   <effect-step x="0" opacity="0" y="300" sx="0.6" sy="0.6" end-t="0.6" r="0"/>
+   <effect-step x="0" opacity="100" y="150" sx="1" sy="1" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="0.6" sy="00.6" end-t="0.9" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_3.svg">
+   <effect-step x="30" opacity="0" y="200" sx="0" sy="0" end-t="0.65" r="0"/>
+   <effect-step x="30" opacity="0" y="100" sx="0.3" sy="0.3" end-t="1.5" r="0"/>
+   <effect-step x="30" opacity="0" y="0" sx="0" sy="0" end-t="1.6" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_4.svg">
+   <effect-step x="30" opacity="0" y="0" sx="0" sy="0" end-t="0.8" r="0"/>
+   <effect-step x="30" opacity="100" y="35" sx="0.2" sy="0.2" end-t="1.2" r="60"/>
+   <effect-step x="30" opacity="0" y="70" sx="0.5" sy="0.5" end-t="1.6" r="70"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_4.svg">
+   <effect-step x="-20" opacity="0" y="0" sx="0" sy="0" end-t="0.65" r="0"/>
+   <effect-step x="-20" opacity="100" y="50" sx="0.3" sy="0.3" end-t="1" r="60"/>
+   <effect-step x="-20" opacity="0" y="100" sx="0.5" sy="0.5" end-t="1.6" r="120"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_2.svg">
+   <effect-step x="0" opacity="0" y="100" sx="1" sy="1" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="50" y="100" sx="0.8" sy="0.8" end-t="1" r="0"/>
+   <effect-step x="0" opacity="0" y="100" sx="0.5" sy="0.5" end-t="1.3" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_2.svg">
+   <effect-step x="0" opacity="0" y="50" sx="0" sy="0" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="75" y="50" sx="0.5" sy="0.5" end-t="0.8" r="0"/>
+   <effect-step x="0" opacity="0" y="50" sx="2" sy="2" end-t="0.9" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_2.svg">
+   <effect-step x="0" opacity="0" y="50" sx="0" sy="0" end-t="0.75" r="0"/>
+   <effect-step x="0" opacity="50" y="50" sx="0.75" sy="0.75" end-t="0.875" r="0"/>
+   <effect-step x="0" opacity="0" y="50" sx="2.5" sy="2.5" end-t="0.95" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="super_fire_slash_2.svg">
+   <effect-step x="0" opacity="0" y="50" sx="0" sy="0" end-t="0.8" r="0"/>
+   <effect-step x="0" opacity="40" y="50" sx="1" sy="1" end-t="0.9" r="0"/>
+   <effect-step x="0" opacity="0" y="50" sx="2" sy="2" end-t="1" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.75" svg="super_fire_slash_5.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0" sy="0" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="80" y="0" sx="1" sy="1" end-t="0.9" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="20" sy="20" end-t="0.1.6" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.75" svg="super_fire_slash_5.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0" sy="0" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="100" y="0" sx="1" sy="1" end-t="0.9" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="7" sy="7" end-t="1.4" r="0"/>
+  </effect>
+ </After>
+</super-attack>

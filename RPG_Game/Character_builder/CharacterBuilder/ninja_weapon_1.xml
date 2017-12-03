@@ -1,0 +1,11 @@
+<weapon fireFromFarAway="0" y-anch="0.1" type="ninja" x-anch="0.5" name="ninja_weapon_1" power="1" svg="ninja_weapon_1.svg">
+ <Before sound=""/>
+ <bullet speed="" out-t="" svg=""/>
+ <After sound="sword_attack_sound.wav">
+  <effect x-anchor="0.5" y-anchor="0.5" svg="ninja_weapon_1_effect_1.svg">
+   <effect-step x="-25" opacity="0" y="70" sx="0.5" sy="0.5" end-t="0" r="0"/>
+   <effect-step x="0" opacity="100" y="70" sx="1" sy="1" end-t="0.15" r="0"/>
+   <effect-step x="0" opacity="0" y="70" sx="0.5" sy="0.5" end-t="0.3" r="0"/>
+  </effect>
+ </After>
+</weapon>

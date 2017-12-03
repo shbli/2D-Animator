@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 27 Feb 2012 22:55:15 +0300
+Source: characterbuilder
+Binary: characterbuilder
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: unknown <ahmedalshebli@unknown>
+Changed-By: unknown <ahmedalshebli@unknown>
+Description: 
+ characterbuilder - <insert up to 60 chars description>
+Changes: 
+ characterbuilder (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 7f539d99b8e62e9ea09a00e5ab62a6a9368c5db6 1073994 characterbuilder_0.0.1_armel.deb
+Checksums-Sha256: 
+ e0436b410462d76077f7eab09758ba8a5e08cd1995386fa5a14657400f136fdc 1073994 characterbuilder_0.0.1_armel.deb
+Files: 
+ da57cfdd1c77296cd33c216d93039318 1073994 user/other optional characterbuilder_0.0.1_armel.deb
+Maemo-Display-Name: characterbuilder

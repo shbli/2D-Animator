@@ -1,0 +1,14 @@
+<map name="" background="ground_1_fight.svg">
+ <enemies contains_random_battle="1" ghost_skeltal_xml="warrior_enemy_1.xml">
+  <enemy-element enemy_level="1" skeltal_xml="warrior_enemy_1.xml"/>
+  <enemy-element enemy_level="1" skeltal_xml="warrior_enemy_1.xml"/>
+  <enemy-element enemy_level="1" skeltal_xml="warrior_enemy_1.xml"/>
+  <enemy-element enemy_level="1" skeltal_xml="warrior_enemy_1.xml"/>
+ </enemies>
+ <all-map-emlemnts>
+  <map-element to-xml="" x="775" y="479" z="0" type="Dummy" r="0" name="plant" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="136" y="320" z="0" type="Dummy" r="0" name="plant" svg="plant_normal.svg"/>
+  <map-element to-xml="" x="776" y="215" z="0" type="Dummy" r="0" name="plant_1" svg="plant_normal.svg"/>
+  <map-element to-xml="area_1_2.xml" x="64" y="416" z="0" type="Gate" r="0" name="Gate left" svg="arrow_l.svg"/>
+ </all-map-emlemnts>
+</map>

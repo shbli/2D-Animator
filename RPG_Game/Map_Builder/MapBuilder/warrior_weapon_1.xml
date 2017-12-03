@@ -1,0 +1,41 @@
+<weapon fireFromFarAway="0" y-anch="0.1" type="warrior" x-anch="0.5" name="warrior_weapon_1" power="1" super-attack-xml="super_fire_slash.xml" svg="warrior_weapon_1.svg">
+ <Before sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="slash_air.svg">
+   <effect-step x="30" opacity="60" y="-60" sx="1" sy="1" end-t="0" r="0"/>
+   <effect-step x="30" opacity="100" y="-60" sx="1" sy="1" end-t="0.15" r="0"/>
+   <effect-step x="30" opacity="0" y="-60" sx="1" sy="1" end-t="0.2" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.1" svg="slash_air.svg">
+   <effect-step x="-20" opacity="0" y="0" sx="1" sy="1" end-t="0" r="0"/>
+   <effect-step x="-20" opacity="0" y="0" sx="1" sy="1" end-t="0.225" r="0"/>
+   <effect-step x="-20" opacity="0" y="0" sx="1" sy="1" end-t="0.45" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.1" svg="slash_air.svg">
+   <effect-step x="-40" opacity="0" y="0" sx="1" sy="1" end-t="0" r="0"/>
+   <effect-step x="-40" opacity="0" y="0" sx="1" sy="1" end-t="0.25" r="0"/>
+   <effect-step x="-40" opacity="0" y="0" sx="1" sy="1" end-t="0.5" r="0"/>
+  </effect>
+ </Before>
+ <After sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="melee_slash_1.svg">
+   <effect-step x="-20" opacity="0" y="100" sx="0" sy="0" end-t="0" r="0"/>
+   <effect-step x="-20" opacity="100" y="100" sx="1" sy="1" end-t="0.1" r="0"/>
+   <effect-step x="-20" opacity="0" y="100" sx="2" sy="2" end-t="0.15" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="melee_slash_2.svg">
+   <effect-step x="0" opacity="0" y="50" sx="1" sy="1" end-t="0.15" r="0"/>
+   <effect-step x="0" opacity="100" y="50" sx="1" sy="1" end-t="0.2" r="0"/>
+   <effect-step x="0" opacity="0" y="50" sx="0" sy="1" end-t="0.30" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="melee_slash_3.svg">
+   <effect-step x="0" opacity="0" y="30" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="100" y="30" sx="0" sy="0" end-t="0.4" r="0"/>
+   <effect-step x="0" opacity="0" y="30" sx="2" sy="2" end-t="0.6" r="0"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="melee_slash_4.svg">
+   <effect-step x="0" opacity="0" y="30" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="100" y="30" sx="0.5" sy="0.5" end-t="0.5" r="180"/>
+   <effect-step x="0" opacity="0" y="30" sx="3" sy="3" end-t="0.7" r="360"/>
+  </effect>
+ </After>
+</weapon>

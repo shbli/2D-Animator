@@ -1,0 +1,16 @@
+<map name="Map 1_1" background="ground_1.svg">
+ <all-map-emlemnts>
+ <map-element to-xml="area_1_5.xml" x="970" y="493" z="0" type="Gate" r="0" name="Gate Right" svg="arrow.svg"/>
+ <map-element to-xml="" x="859" y="588" z="0" type="Dummy" r="0" name="Plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="192" y="294" z="0" type="Dummy" r="0" name="Plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="752" y="221" z="0" type="Dummy" r="0" name="Plant Red" svg="plant_red.svg"/>
+ <map-element to-xml="" x="192" y="552" z="0" type="Dummy" r="0" name="Plant Red" svg="plant_red.svg"/>
+ <map-element to-xml="" x="647" y="347" z="0" type="House" r="0" name="Home" svg="straw_home.svg"/>
+ <map-element to-xml="" x="865" y="90" z="0" type="Dummy3D" r="0" name="RockBig" svg="rock01.svg"/>
+ <map-element to-xml="" x="663" y="44" z="0" type="Dummy3D" r="0" name="RockSmall" svg="rock02.svg"/>
+ <map-element to-xml="area_1_1.xml" x="52" y="425" z="0" type="Gate" r="172" name="Gate Left" svg="arrow.svg"/>
+ <map-element to-xml="area_1_3.xml" x="501" y="30" z="0" type="Gate" r="90" name="Gate Down" svg="arrow.svg"/>
+ <map-element to-xml="area_1_4.xml" x="541" y="727" z="0" type="Gate" r="-92" name="Gate Up" svg="arrow.svg"/>
+  </all-map-emlemnts>
+
+</map>

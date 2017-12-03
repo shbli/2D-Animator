@@ -1,0 +1,4 @@
+<map name="Map 1_1" background="them_1_background.svg">
+ <map-element to-xml="map_1_1.xml" x="680" y="375" z="0" type="Gate" r="0" name="Gate 1" svg="gate.svg"/>
+ <map-element to-xml="map_1_1.xml" x="700" y="100" z="0" type="Gate" r="0" name="Gate 2" svg="gate.svg"/>
+</map>

@@ -1,0 +1,15 @@
+Source: gameengine
+Section: user/other
+Priority: optional
+Maintainer: unknown <ahmedalshebli@unknown>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: gameengine
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+XSBC-Maemo-Display-Name: GameEngine
+XB-Maemo-Icon-26: 

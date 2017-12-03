@@ -1,0 +1,1421 @@
+<character speed="120" w1-xml="warrior_weapon_1.xml" type="warrior" circule-y-offset="0" name="warrior1" health="40" level="1" super-attack-xml="">
+ <joint xAnch="0.5" yAnch="0" y="0" z="0" r="0" name="Main" w1="0" w2="0">
+  <svg-files/>
+  <animations>
+   <breathing>
+    <animation-step end-time="1.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </breathing>
+   <walking>
+    <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </walking>
+   <attacking>
+    <animation-step end-time="1.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </attacking>
+   <damaged>
+    <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </damaged>
+   <die>
+    <animation-step end-time="1.1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </die>
+   <super>
+    <animation-step end-time="0.95" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </super>
+   <superc>
+    <animation-step end-time="1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </superc>
+   <superw>
+    <animation-step end-time="1.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </superw>
+  </animations>
+  <joint xAnch="0.5" yAnch="0" y="57" z="0" r="-180" name="Body space" w1="0" w2="0">
+   <svg-files/>
+   <animations>
+    <breathing>
+     <animation-step end-time="0.3" fire-w1="0" rotation-angle="-180" end-y="53" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="-180" end-y="53" svg-index="0"/>
+     <animation-step end-time="0.9" fire-w1="0" rotation-angle="-180" end-y="53" svg-index="0"/>
+     <animation-step end-time="1.2" fire-w1="0" rotation-angle="-180" end-y="53" svg-index="0"/>
+    </breathing>
+    <walking>
+     <animation-step end-time="0.2" fire-w1="0" rotation-angle="-175" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.4" fire-w1="0" rotation-angle="-178" end-y="63" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="-175" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.75" fire-w1="0" rotation-angle="-178" end-y="63" svg-index="0"/>
+    </walking>
+    <attacking>
+     <animation-step end-time="0.125" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.25" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.5" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.75" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="1" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="1.125" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+    </attacking>
+    <damaged>
+     <animation-step end-time="0.125" fire-w1="0" rotation-angle="-181" end-y="52" svg-index="0"/>
+     <animation-step end-time="0.2" fire-w1="0" rotation-angle="-181" end-y="52" svg-index="0"/>
+     <animation-step end-time="0.5" fire-w1="0" rotation-angle="-181" end-y="52" svg-index="0"/>
+    </damaged>
+    <die>
+     <animation-step end-time="0.3" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="-181" end-y="44.5" svg-index="0"/>
+     <animation-step end-time="0.9" fire-w1="0" rotation-angle="-180" end-y="34" svg-index="0"/>
+     <animation-step end-time="1.1" fire-w1="0" rotation-angle="-180" end-y="10.5" svg-index="0"/>
+    </die>
+    <super>
+     <animation-step end-time="0.1" fire-w1="0" rotation-angle="-180" end-y="47" svg-index="0"/>
+     <animation-step end-time="0.95" fire-w1="0" rotation-angle="-180" end-y="47" svg-index="0"/>
+    </super>
+    <superc>
+     <animation-step end-time="0.125" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.25" fire-w1="0" rotation-angle="-184" end-y="69" svg-index="0"/>
+     <animation-step end-time="0.4" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+     <animation-step end-time="1" fire-w1="0" rotation-angle="-180" end-y="57" svg-index="0"/>
+    </superc>
+    <superw>
+     <animation-step end-time="0.25" fire-w1="0" rotation-angle="-180" end-y="44" svg-index="0"/>
+     <animation-step end-time="0.5" fire-w1="0" rotation-angle="-180" end-y="97" svg-index="0"/>
+     <animation-step end-time="0.625" fire-w1="0" rotation-angle="-146" end-y="86" svg-index="0"/>
+     <animation-step end-time="0.75" fire-w1="0" rotation-angle="-124" end-y="56" svg-index="0"/>
+     <animation-step end-time="0.8" fire-w1="0" rotation-angle="-124" end-y="56" svg-index="0"/>
+     <animation-step end-time="0.85" fire-w1="0" rotation-angle="-124" end-y="56" svg-index="0"/>
+     <animation-step end-time="1.3" fire-w1="0" rotation-angle="-180" end-y="44" svg-index="0"/>
+     <animation-step end-time="1.6" fire-w1="0" rotation-angle="-180" end-y="44" svg-index="0"/>
+    </superw>
+   </animations>
+   <joint xAnch="0.5" yAnch="0.5" y="0" z="-2" r="-180" name="Body" w1="0" w2="0">
+    <svg-files>
+     <svg file="warrior1_body.svg"/>
+    </svg-files>
+    <animations>
+     <breathing>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.3" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.9" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.2" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+     </breathing>
+     <walking>
+      <animation-step end-time="0.2" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.4" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.75" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+     </walking>
+     <attacking>
+      <animation-step end-time="0.125" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.25" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.5" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.75" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="1" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.125" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+     </attacking>
+     <damaged>
+      <animation-step end-time="0.125" fire-w1="0" rotation-angle="-173" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.2" fire-w1="0" rotation-angle="-186" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.5" fire-w1="0" rotation-angle="-175" end-y="0" svg-index="0"/>
+     </damaged>
+     <die>
+      <animation-step end-time="0.3" fire-w1="0" rotation-angle="-182" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.9" fire-w1="0" rotation-angle="-147" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.1" fire-w1="0" rotation-angle="-126" end-y="0" svg-index="0"/>
+     </die>
+     <super>
+      <animation-step end-time="0.1" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.95" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+     </super>
+     <superc>
+      <animation-step end-time="0.125" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.25" fire-w1="0" rotation-angle="-177" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.4" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="1" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+     </superc>
+     <superw>
+      <animation-step end-time="0.25" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.5" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.625" fire-w1="0" rotation-angle="-205" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.75" fire-w1="0" rotation-angle="-224" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.8" fire-w1="0" rotation-angle="-213" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.85" fire-w1="0" rotation-angle="-224" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.3" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.6" fire-w1="0" rotation-angle="-180" end-y="0" svg-index="0"/>
+     </superw>
+    </animations>
+    <joint xAnch="0.5" yAnch="0.5" y="15" z="10" r="179" name="Head Space" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="179" end-y="13" svg-index="0"/>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="179" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="179" end-y="13" svg-index="0"/>
+       <animation-step end-time="1.2" fire-w1="0" rotation-angle="179" end-y="15" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="179" end-y="18.5" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="183" end-y="20" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="179" end-y="17.5" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="183" end-y="20" svg-index="0"/>
+      </walking>
+      <attacking>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="167" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="191" end-y="17" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="177" end-y="20" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="177" end-y="18" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="179" end-y="19" svg-index="0"/>
+       <animation-step end-time="1.125" fire-w1="0" rotation-angle="179" end-y="19" svg-index="0"/>
+      </attacking>
+      <damaged>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="167" end-y="17" svg-index="0"/>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="167" end-y="17" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="167" end-y="17" svg-index="0"/>
+      </damaged>
+      <die>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="188" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="188" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="188" end-y="15" svg-index="0"/>
+       <animation-step end-time="1.1" fire-w1="0" rotation-angle="188" end-y="15" svg-index="0"/>
+      </die>
+      <super>
+       <animation-step end-time="0.1" fire-w1="0" rotation-angle="174" end-y="12" svg-index="0"/>
+       <animation-step end-time="0.95" fire-w1="0" rotation-angle="174" end-y="12" svg-index="0"/>
+      </super>
+      <superc>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="179" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="179" end-y="13" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="179" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="184" end-y="20" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="186" end-y="20" svg-index="0"/>
+      </superc>
+      <superw>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="194" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="175" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.625" fire-w1="0" rotation-angle="186" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="190" end-y="19" svg-index="0"/>
+       <animation-step end-time="0.8" fire-w1="0" rotation-angle="190" end-y="19" svg-index="0"/>
+       <animation-step end-time="0.85" fire-w1="0" rotation-angle="190" end-y="19" svg-index="0"/>
+       <animation-step end-time="1.3" fire-w1="0" rotation-angle="179" end-y="20" svg-index="0"/>
+       <animation-step end-time="1.6" fire-w1="0" rotation-angle="179" end-y="16" svg-index="0"/>
+      </superw>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.2" y="0" z="0" r="7" name="Head" w1="0" w2="0">
+      <svg-files>
+       <svg file="warrior1_head.svg"/>
+      </svg-files>
+      <animations>
+       <breathing>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.2" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+       </breathing>
+       <walking>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+       </walking>
+       <attacking>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.125" fire-w1="0" rotation-angle="2" end-y="0" svg-index="0"/>
+       </attacking>
+       <damaged>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="12" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="39" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+       </damaged>
+       <die>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="18" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="18" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="-27" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.1" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+       </die>
+       <super>
+        <animation-step end-time="0.1" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.95" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+       </super>
+       <superc>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+       </superc>
+       <superw>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="-6" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.625" fire-w1="0" rotation-angle="-6" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="-6" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.8" fire-w1="0" rotation-angle="-6" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.85" fire-w1="0" rotation-angle="-6" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.3" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.6" fire-w1="0" rotation-angle="7" end-y="0" svg-index="0"/>
+       </superw>
+      </animations>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0" y="22" z="2" r="131" name="FrontArmSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="130" end-y="22" svg-index="0"/>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="133" end-y="22" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="131" end-y="22" svg-index="0"/>
+       <animation-step end-time="1.2" fire-w1="0" rotation-angle="135" end-y="22" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="131" end-y="22" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="131" end-y="23" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="131" end-y="22" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="131" end-y="22" svg-index="0"/>
+      </walking>
+      <attacking>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="209" end-y="5" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="211" end-y="5" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="136" end-y="24" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="136" end-y="24" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="136" end-y="24" svg-index="0"/>
+       <animation-step end-time="1.125" fire-w1="0" rotation-angle="136" end-y="24" svg-index="0"/>
+      </attacking>
+      <damaged>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="126" end-y="22" svg-index="0"/>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="126" end-y="22" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="126" end-y="22" svg-index="0"/>
+      </damaged>
+      <die>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="115" end-y="28.5" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="115" end-y="28.5" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="115" end-y="28.5" svg-index="0"/>
+       <animation-step end-time="1.1" fire-w1="0" rotation-angle="108" end-y="28.5" svg-index="0"/>
+      </die>
+      <super>
+       <animation-step end-time="0.1" fire-w1="0" rotation-angle="132" end-y="20" svg-index="0"/>
+       <animation-step end-time="0.95" fire-w1="0" rotation-angle="132" end-y="20" svg-index="0"/>
+      </super>
+      <superc>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="131" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="131" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="131" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="131" end-y="18" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="131" end-y="18" svg-index="0"/>
+      </superc>
+      <superw>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="132" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="102" end-y="9" svg-index="0"/>
+       <animation-step end-time="0.625" fire-w1="0" rotation-angle="226" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="269" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.8" fire-w1="0" rotation-angle="269" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.85" fire-w1="0" rotation-angle="269" end-y="0" svg-index="0"/>
+       <animation-step end-time="1.3" fire-w1="0" rotation-angle="137" end-y="22" svg-index="0"/>
+       <animation-step end-time="1.6" fire-w1="0" rotation-angle="137" end-y="22" svg-index="0"/>
+      </superw>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.1" y="0" z="10" r="256" name="LeftArm" w1="0" w2="0">
+      <svg-files>
+       <svg file="warrior1_larm.svg"/>
+      </svg-files>
+      <animations>
+       <breathing>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="251" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="251" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="251" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.2" fire-w1="0" rotation-angle="251" end-y="0" svg-index="0"/>
+       </breathing>
+       <walking>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="238" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="263" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="256" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="229" end-y="0" svg-index="0"/>
+       </walking>
+       <attacking>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="21" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="162" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="255" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="236" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.125" fire-w1="0" rotation-angle="241" end-y="0" svg-index="0"/>
+       </attacking>
+       <damaged>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="255" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="220" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="246" end-y="0" svg-index="0"/>
+       </damaged>
+       <die>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="173" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="173" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="173" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.1" fire-w1="0" rotation-angle="142" end-y="0" svg-index="0"/>
+       </die>
+       <super>
+        <animation-step end-time="0.1" fire-w1="0" rotation-angle="276" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.95" fire-w1="0" rotation-angle="276" end-y="0" svg-index="0"/>
+       </super>
+       <superc>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="254" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="191" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="57" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="62" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="66" end-y="0" svg-index="0"/>
+       </superc>
+       <superw>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="190" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="30" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.625" fire-w1="0" rotation-angle="30" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="30" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.8" fire-w1="0" rotation-angle="30" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.85" fire-w1="0" rotation-angle="30" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.3" fire-w1="0" rotation-angle="261" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.6" fire-w1="0" rotation-angle="261" end-y="0" svg-index="0"/>
+       </superw>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="27" z="-1" r="-8" name="LeftHand space" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-10" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="-12" end-y="27" svg-index="0"/>
+         <animation-step end-time="1.2" fire-w1="0" rotation-angle="-10" end-y="27" svg-index="0"/>
+        </breathing>
+        <walking>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+        </walking>
+        <attacking>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="-12" end-y="25" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-16" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-16" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-13" end-y="27" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="1.125" fire-w1="0" rotation-angle="-5" end-y="27" svg-index="0"/>
+        </attacking>
+        <damaged>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+        </damaged>
+        <die>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="1.1" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+        </die>
+        <super>
+         <animation-step end-time="0.1" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.95" fire-w1="0" rotation-angle="-8" end-y="27" svg-index="0"/>
+        </super>
+        <superc>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="-4" end-y="28" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-4" end-y="28" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="-15" end-y="37" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-15" end-y="37" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="-15" end-y="37" svg-index="0"/>
+        </superc>
+        <superw>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.625" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.8" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="0.85" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="1.3" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+         <animation-step end-time="1.6" fire-w1="0" rotation-angle="-11" end-y="27" svg-index="0"/>
+        </superw>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="0" z="0" r="9" name="leftHand" w1="0" w2="0">
+        <svg-files>
+         <svg file="warrior1_lhand.svg"/>
+        </svg-files>
+        <animations>
+         <breathing>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.2" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+         </breathing>
+         <walking>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+         </walking>
+         <attacking>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="18" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="38" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="38" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="28" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="18" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.125" fire-w1="0" rotation-angle="1" end-y="0" svg-index="0"/>
+         </attacking>
+         <damaged>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="36" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+         </damaged>
+         <die>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.1" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+         </die>
+         <super>
+          <animation-step end-time="0.1" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.95" fire-w1="0" rotation-angle="9" end-y="0" svg-index="0"/>
+         </super>
+         <superc>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="-19" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="-19" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="93" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="93" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="82" end-y="0" svg-index="0"/>
+         </superc>
+         <superw>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="40" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="40" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.625" fire-w1="0" rotation-angle="40" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="40" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.8" fire-w1="0" rotation-angle="40" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.85" fire-w1="0" rotation-angle="40" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.3" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.6" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+         </superw>
+        </animations>
+        <joint xAnch="0.5" yAnch="0" y="12.5" z="-1" r="19" name="Weapon Space" w1="0" w2="1">
+         <svg-files/>
+         <animations>
+          <breathing>
+           <animation-step end-time="0.6" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.3" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.9" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="1.2" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+          </breathing>
+          <walking>
+           <animation-step end-time="0.2" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.4" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.6" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.75" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+          </walking>
+          <attacking>
+           <animation-step end-time="0.125" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.25" fire-w1="0" rotation-angle="19" end-y="0" svg-index="0"/>
+           <animation-step end-time="0.5" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.75" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="1" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="1.125" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+          </attacking>
+          <damaged>
+           <animation-step end-time="0.125" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.2" fire-w1="0" rotation-angle="3" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.5" fire-w1="0" rotation-angle="8" end-y="12.5" svg-index="0"/>
+          </damaged>
+          <die>
+           <animation-step end-time="0.3" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.6" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.9" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="1.1" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+          </die>
+          <super>
+           <animation-step end-time="0.1" fire-w1="0" rotation-angle="-7" end-y="11" svg-index="0"/>
+           <animation-step end-time="0.95" fire-w1="0" rotation-angle="-7" end-y="11" svg-index="0"/>
+          </super>
+          <superc>
+           <animation-step end-time="0.125" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.25" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.4" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.6" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="1" fire-w1="0" rotation-angle="19" end-y="12.5" svg-index="0"/>
+          </superc>
+          <superw>
+           <animation-step end-time="0.25" fire-w1="0" rotation-angle="-2" end-y="12.5" svg-index="0"/>
+           <animation-step end-time="0.5" fire-w1="0" rotation-angle="-4" end-y="11" svg-index="0"/>
+           <animation-step end-time="0.625" fire-w1="0" rotation-angle="-4" end-y="11" svg-index="0"/>
+           <animation-step end-time="0.75" fire-w1="0" rotation-angle="-1" end-y="11" svg-index="0"/>
+           <animation-step end-time="0.8" fire-w1="0" rotation-angle="-1" end-y="11" svg-index="0"/>
+           <animation-step end-time="0.85" fire-w1="0" rotation-angle="-1" end-y="11" svg-index="0"/>
+           <animation-step end-time="1.3" fire-w1="0" rotation-angle="-2" end-y="10" svg-index="0"/>
+           <animation-step end-time="1.6" fire-w1="0" rotation-angle="7" end-y="12.5" svg-index="0"/>
+          </superw>
+         </animations>
+         <joint xAnch="0.5" yAnch="0.5" y="0" z="0" r="252" name="Weapon" w1="1" w2="0">
+          <svg-files/>
+          <animations>
+           <breathing>
+            <animation-step end-time="0.6" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.3" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.9" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="1.2" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+           </breathing>
+           <walking>
+            <animation-step end-time="0.2" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.4" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.6" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.75" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+           </walking>
+           <attacking>
+            <animation-step end-time="0.125" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.25" fire-w1="1" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.5" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.75" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="1" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="1.125" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+           </attacking>
+           <damaged>
+            <animation-step end-time="0.125" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.2" fire-w1="0" rotation-angle="251" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.5" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+           </damaged>
+           <die>
+            <animation-step end-time="0.3" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.6" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.9" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+            <animation-step end-time="1.1" fire-w1="0" rotation-angle="242" end-y="0" svg-index="0"/>
+           </die>
+           <super>
+            <animation-step end-time="0.1" fire-w1="0" rotation-angle="266" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.95" fire-w1="0" rotation-angle="266" end-y="0" svg-index="0"/>
+           </super>
+           <superc>
+            <animation-step end-time="0.125" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.25" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.4" fire-w1="0" rotation-angle="252" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.6" fire-w1="0" rotation-angle="248" end-y="0" svg-index="0"/>
+            <animation-step end-time="1" fire-w1="0" rotation-angle="248" end-y="0" svg-index="0"/>
+           </superc>
+           <superw>
+            <animation-step end-time="0.25" fire-w1="0" rotation-angle="263" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.5" fire-w1="0" rotation-angle="314" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.625" fire-w1="0" rotation-angle="314" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.75" fire-w1="0" rotation-angle="303" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.8" fire-w1="0" rotation-angle="285" end-y="0" svg-index="0"/>
+            <animation-step end-time="0.85" fire-w1="0" rotation-angle="303" end-y="0" svg-index="0"/>
+            <animation-step end-time="1.3" fire-w1="0" rotation-angle="268" end-y="0" svg-index="0"/>
+            <animation-step end-time="1.6" fire-w1="0" rotation-angle="250" end-y="0" svg-index="0"/>
+           </superw>
+          </animations>
+         </joint>
+        </joint>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0" y="21" z="-2" r="-140" name="BackArmSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-136" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="-141" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="-137" end-y="21" svg-index="0"/>
+       <animation-step end-time="1.2" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="-141" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="-141" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-141" end-y="22.5" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="-141" end-y="21" svg-index="0"/>
+      </walking>
+      <attacking>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="-154" end-y="5" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="-62" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="-137" end-y="17" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="-147" end-y="17" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="-147" end-y="19" svg-index="0"/>
+       <animation-step end-time="1.125" fire-w1="0" rotation-angle="-147" end-y="19" svg-index="0"/>
+      </attacking>
+      <damaged>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="-138" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="-147" end-y="11" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="-145" end-y="21" svg-index="0"/>
+      </damaged>
+      <die>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="1.1" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+      </die>
+      <super>
+       <animation-step end-time="0.1" fire-w1="0" rotation-angle="-152" end-y="15" svg-index="0"/>
+       <animation-step end-time="0.95" fire-w1="0" rotation-angle="-152" end-y="15" svg-index="0"/>
+      </super>
+      <superc>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="-127" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="-127" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+      </superc>
+      <superw>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="-229" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.625" fire-w1="0" rotation-angle="-88" end-y="4" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.8" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.85" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+       <animation-step end-time="1.3" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+       <animation-step end-time="1.6" fire-w1="0" rotation-angle="-140" end-y="21" svg-index="0"/>
+      </superw>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.1" y="0" z="-1" r="123" name="RightArm" w1="0" w2="0">
+      <svg-files>
+       <svg file="warrior1_rarm.svg"/>
+      </svg-files>
+      <animations>
+       <breathing>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="114" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="114" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="114" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.2" fire-w1="0" rotation-angle="114" end-y="0" svg-index="0"/>
+       </breathing>
+       <walking>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="112" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="110" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="117" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="140" end-y="0" svg-index="0"/>
+       </walking>
+       <attacking>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="32" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="44" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="98" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="118" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="134" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.125" fire-w1="0" rotation-angle="129" end-y="0" svg-index="0"/>
+       </attacking>
+       <damaged>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="117" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="70" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="125" end-y="0" svg-index="0"/>
+       </damaged>
+       <die>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="138" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="138" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="4" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.1" fire-w1="0" rotation-angle="21" end-y="0" svg-index="0"/>
+       </die>
+       <super>
+        <animation-step end-time="0.1" fire-w1="0" rotation-angle="161" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.95" fire-w1="0" rotation-angle="161" end-y="0" svg-index="0"/>
+       </super>
+       <superc>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="110" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="117" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="123" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="114" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="122" end-y="0" svg-index="0"/>
+       </superc>
+       <superw>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="128" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="-21" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.625" fire-w1="0" rotation-angle="-21" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="-21" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.8" fire-w1="0" rotation-angle="-21" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.85" fire-w1="0" rotation-angle="-21" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.3" fire-w1="0" rotation-angle="117" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.6" fire-w1="0" rotation-angle="108" end-y="0" svg-index="0"/>
+       </superw>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="26" z="-2" r="-3" name="RightHandSpace" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1.2" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </breathing>
+        <walking>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </walking>
+        <attacking>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1.125" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </attacking>
+        <damaged>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </damaged>
+        <die>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1.1" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </die>
+        <super>
+         <animation-step end-time="0.1" fire-w1="0" rotation-angle="-7" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.95" fire-w1="0" rotation-angle="-7" end-y="26" svg-index="0"/>
+        </super>
+        <superc>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </superc>
+        <superw>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.625" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.8" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="0.85" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1.3" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+         <animation-step end-time="1.6" fire-w1="0" rotation-angle="-3" end-y="26" svg-index="0"/>
+        </superw>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="0" z="0" r="11" name="RightHand" w1="0" w2="0">
+        <svg-files>
+         <svg file="warrior1_rhand.svg"/>
+        </svg-files>
+        <animations>
+         <breathing>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.2" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </breathing>
+         <walking>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </walking>
+         <attacking>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="41" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="4" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="4" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="4" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.125" fire-w1="0" rotation-angle="4" end-y="0" svg-index="0"/>
+         </attacking>
+         <damaged>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="1" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </damaged>
+         <die>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.1" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </die>
+         <super>
+          <animation-step end-time="0.1" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.95" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </super>
+         <superc>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </superc>
+         <superw>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.625" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.8" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.85" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.3" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.6" fire-w1="0" rotation-angle="11" end-y="0" svg-index="0"/>
+         </superw>
+        </animations>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0.1" y="13" z="0" r="36" name="LeftLegSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="35" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="35" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="35" end-y="14" svg-index="0"/>
+       <animation-step end-time="1.2" fire-w1="0" rotation-angle="35" end-y="14" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="43" end-y="15.5" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-34" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="-10" end-y="16" svg-index="0"/>
+      </walking>
+      <attacking>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="36" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="50" end-y="9" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="25" end-y="9" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="25" end-y="9" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="25" end-y="9" svg-index="0"/>
+       <animation-step end-time="1.125" fire-w1="0" rotation-angle="25" end-y="9" svg-index="0"/>
+      </attacking>
+      <damaged>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="36" end-y="15.5" svg-index="0"/>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="32" end-y="15.5" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="30" end-y="13" svg-index="0"/>
+      </damaged>
+      <die>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="43" end-y="15.5" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="31" end-y="15.5" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="31" end-y="15.5" svg-index="0"/>
+       <animation-step end-time="1.1" fire-w1="0" rotation-angle="31" end-y="15.5" svg-index="0"/>
+      </die>
+      <super>
+       <animation-step end-time="0.1" fire-w1="0" rotation-angle="46" end-y="8" svg-index="0"/>
+       <animation-step end-time="0.95" fire-w1="0" rotation-angle="46" end-y="8" svg-index="0"/>
+      </super>
+      <superc>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="34" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="28" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="34" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="34" end-y="14" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="34" end-y="14" svg-index="0"/>
+      </superc>
+      <superw>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="52" end-y="8" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="37" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.625" fire-w1="0" rotation-angle="18" end-y="16" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="4" end-y="3" svg-index="0"/>
+       <animation-step end-time="0.8" fire-w1="0" rotation-angle="4" end-y="3" svg-index="0"/>
+       <animation-step end-time="0.85" fire-w1="0" rotation-angle="4" end-y="3" svg-index="0"/>
+       <animation-step end-time="1.3" fire-w1="0" rotation-angle="53" end-y="12" svg-index="0"/>
+       <animation-step end-time="1.6" fire-w1="0" rotation-angle="51" end-y="12" svg-index="0"/>
+      </superw>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.1" y="0" z="-1" r="-24" name="LeftLeg" w1="0" w2="0">
+      <svg-files>
+       <svg file="warrior1_leg.svg"/>
+      </svg-files>
+      <animations>
+       <breathing>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="-17" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="-17" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="-17" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.2" fire-w1="0" rotation-angle="-17" end-y="0" svg-index="0"/>
+       </breathing>
+       <walking>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="-7" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="-44" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="5" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="20" end-y="0" svg-index="0"/>
+       </walking>
+       <attacking>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.125" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+       </attacking>
+       <damaged>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="-29" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+       </damaged>
+       <die>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="-42" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="14" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="14" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.1" fire-w1="0" rotation-angle="14" end-y="0" svg-index="0"/>
+       </die>
+       <super>
+        <animation-step end-time="0.1" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.95" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+       </super>
+       <superc>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="-22" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+       </superc>
+       <superw>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="-24" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="-17" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.625" fire-w1="0" rotation-angle="-17" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="28" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.8" fire-w1="0" rotation-angle="28" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.85" fire-w1="0" rotation-angle="28" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.3" fire-w1="0" rotation-angle="-41" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.6" fire-w1="0" rotation-angle="-41" end-y="0" svg-index="0"/>
+       </superw>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="31" z="-1" r="1" name="LeftFeetSpace" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="1.2" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+        </breathing>
+        <walking>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+        </walking>
+        <attacking>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="1" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-7" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+         <animation-step end-time="1.125" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+        </attacking>
+        <damaged>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+        </damaged>
+        <die>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+         <animation-step end-time="1.1" fire-w1="0" rotation-angle="0" end-y="30.5" svg-index="0"/>
+        </die>
+        <super>
+         <animation-step end-time="0.1" fire-w1="0" rotation-angle="-2" end-y="30" svg-index="0"/>
+         <animation-step end-time="0.95" fire-w1="0" rotation-angle="-2" end-y="30" svg-index="0"/>
+        </super>
+        <superc>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="8" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="2" end-y="31" svg-index="0"/>
+        </superc>
+        <superw>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-1" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-1" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.625" fire-w1="0" rotation-angle="-2" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-2" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.8" fire-w1="0" rotation-angle="-2" end-y="31" svg-index="0"/>
+         <animation-step end-time="0.85" fire-w1="0" rotation-angle="-2" end-y="31" svg-index="0"/>
+         <animation-step end-time="1.3" fire-w1="0" rotation-angle="4" end-y="31" svg-index="0"/>
+         <animation-step end-time="1.6" fire-w1="0" rotation-angle="4" end-y="31" svg-index="0"/>
+        </superw>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="0" z="1" r="-10" name="LeftFeet" w1="0" w2="0">
+        <svg-files>
+         <svg file="warrior1_feet.svg"/>
+        </svg-files>
+        <animations>
+         <breathing>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="-18" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="-18" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="-18" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.2" fire-w1="0" rotation-angle="-18" end-y="0" svg-index="0"/>
+         </breathing>
+         <walking>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="-3" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="29" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="-10" end-y="0" svg-index="0"/>
+         </walking>
+         <attacking>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="-22" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="36" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="-16" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="-16" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="-16" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.125" fire-w1="0" rotation-angle="-16" end-y="0" svg-index="0"/>
+         </attacking>
+         <damaged>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="-3" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="-10" end-y="0" svg-index="0"/>
+         </damaged>
+         <die>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="45" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="45" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.1" fire-w1="0" rotation-angle="45" end-y="0" svg-index="0"/>
+         </die>
+         <super>
+          <animation-step end-time="0.1" fire-w1="0" rotation-angle="-19" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.95" fire-w1="0" rotation-angle="-19" end-y="0" svg-index="0"/>
+         </super>
+         <superc>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="-13" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="-43" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="-13" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="-13" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="-13" end-y="0" svg-index="0"/>
+         </superc>
+         <superw>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="39" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="28" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.625" fire-w1="0" rotation-angle="6" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.8" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.85" fire-w1="0" rotation-angle="31" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.3" fire-w1="0" rotation-angle="-15" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.6" fire-w1="0" rotation-angle="-12" end-y="0" svg-index="0"/>
+         </superw>
+        </animations>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0.1" y="10" z="-2" r="-40" name="RightLegSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-39" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="-39" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="-39" end-y="10" svg-index="0"/>
+       <animation-step end-time="1.2" fire-w1="0" rotation-angle="-39" end-y="10" svg-index="0"/>
+      </breathing>
+      <walking>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="-40" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="-40" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="27" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="20" end-y="0" svg-index="0"/>
+      </walking>
+      <attacking>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="-40" end-y="12" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="-40" end-y="12" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="-42" end-y="9" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="-42" end-y="9" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="-42" end-y="9" svg-index="0"/>
+       <animation-step end-time="1.125" fire-w1="0" rotation-angle="-42" end-y="9" svg-index="0"/>
+      </attacking>
+      <damaged>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="-44" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.2" fire-w1="0" rotation-angle="-54" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="-44" end-y="10" svg-index="0"/>
+      </damaged>
+      <die>
+       <animation-step end-time="0.3" fire-w1="0" rotation-angle="-40" end-y="10" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-40" end-y="3" svg-index="0"/>
+       <animation-step end-time="0.9" fire-w1="0" rotation-angle="-40" end-y="3" svg-index="0"/>
+       <animation-step end-time="1.1" fire-w1="0" rotation-angle="-17" end-y="3" svg-index="0"/>
+      </die>
+      <super>
+       <animation-step end-time="0.1" fire-w1="0" rotation-angle="-38" end-y="4" svg-index="0"/>
+       <animation-step end-time="0.95" fire-w1="0" rotation-angle="-38" end-y="4" svg-index="0"/>
+      </super>
+      <superc>
+       <animation-step end-time="0.125" fire-w1="0" rotation-angle="-49" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="-32" end-y="9" svg-index="0"/>
+       <animation-step end-time="0.4" fire-w1="0" rotation-angle="-49" end-y="14" svg-index="0"/>
+       <animation-step end-time="0.6" fire-w1="0" rotation-angle="-49" end-y="14" svg-index="0"/>
+       <animation-step end-time="1" fire-w1="0" rotation-angle="-49" end-y="14" svg-index="0"/>
+      </superc>
+      <superw>
+       <animation-step end-time="0.25" fire-w1="0" rotation-angle="-76" end-y="4" svg-index="0"/>
+       <animation-step end-time="0.5" fire-w1="0" rotation-angle="-37" end-y="5" svg-index="0"/>
+       <animation-step end-time="0.625" fire-w1="0" rotation-angle="-54" end-y="5" svg-index="0"/>
+       <animation-step end-time="0.75" fire-w1="0" rotation-angle="-51" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.8" fire-w1="0" rotation-angle="-51" end-y="0" svg-index="0"/>
+       <animation-step end-time="0.85" fire-w1="0" rotation-angle="-51" end-y="0" svg-index="0"/>
+       <animation-step end-time="1.3" fire-w1="0" rotation-angle="-61" end-y="8" svg-index="0"/>
+       <animation-step end-time="1.6" fire-w1="0" rotation-angle="-54" end-y="8" svg-index="0"/>
+      </superw>
+     </animations>
+     <joint xAnch="0.5" yAnch="0" y="0" z="-1" r="36" name="RightLeg" w1="0" w2="0">
+      <svg-files>
+       <svg file="warrior1_leg.svg"/>
+      </svg-files>
+      <animations>
+       <breathing>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.2" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+       </breathing>
+       <walking>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="10" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="46" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="-22" end-y="0" svg-index="0"/>
+       </walking>
+       <attacking>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="26" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="34" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.125" fire-w1="0" rotation-angle="25" end-y="0" svg-index="0"/>
+       </attacking>
+       <damaged>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="26" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.2" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+       </damaged>
+       <die>
+        <animation-step end-time="0.3" fire-w1="0" rotation-angle="41" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="41" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.9" fire-w1="0" rotation-angle="41" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.1" fire-w1="0" rotation-angle="41" end-y="0" svg-index="0"/>
+       </die>
+       <super>
+        <animation-step end-time="0.1" fire-w1="0" rotation-angle="24" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.95" fire-w1="0" rotation-angle="24" end-y="0" svg-index="0"/>
+       </super>
+       <superc>
+        <animation-step end-time="0.125" fire-w1="0" rotation-angle="36" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="28" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.4" fire-w1="0" rotation-angle="36" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.6" fire-w1="0" rotation-angle="36" end-y="0" svg-index="0"/>
+        <animation-step end-time="1" fire-w1="0" rotation-angle="36" end-y="0" svg-index="0"/>
+       </superc>
+       <superw>
+        <animation-step end-time="0.25" fire-w1="0" rotation-angle="70" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.5" fire-w1="0" rotation-angle="16" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.625" fire-w1="0" rotation-angle="16" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.75" fire-w1="0" rotation-angle="16" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.8" fire-w1="0" rotation-angle="16" end-y="0" svg-index="0"/>
+        <animation-step end-time="0.85" fire-w1="0" rotation-angle="16" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.3" fire-w1="0" rotation-angle="42" end-y="0" svg-index="0"/>
+        <animation-step end-time="1.6" fire-w1="0" rotation-angle="42" end-y="0" svg-index="0"/>
+       </superw>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="34" z="0" r="0" name="RightFeetspace" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="1.2" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+        </breathing>
+        <walking>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+        </walking>
+        <attacking>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-3" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-3" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-3" end-y="34" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="-3" end-y="34" svg-index="0"/>
+         <animation-step end-time="1.125" fire-w1="0" rotation-angle="-3" end-y="34" svg-index="0"/>
+        </attacking>
+        <damaged>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.2" fire-w1="0" rotation-angle="-8" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="2" end-y="34" svg-index="0"/>
+        </damaged>
+        <die>
+         <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="1.1" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+        </die>
+        <super>
+         <animation-step end-time="0.1" fire-w1="0" rotation-angle="-2" end-y="35" svg-index="0"/>
+         <animation-step end-time="0.95" fire-w1="0" rotation-angle="-2" end-y="35" svg-index="0"/>
+        </super>
+        <superc>
+         <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="-6" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="1" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+        </superc>
+        <superw>
+         <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="0.5" fire-w1="0" rotation-angle="-1" end-y="35" svg-index="0"/>
+         <animation-step end-time="0.625" fire-w1="0" rotation-angle="-1" end-y="35" svg-index="0"/>
+         <animation-step end-time="0.75" fire-w1="0" rotation-angle="-1" end-y="35" svg-index="0"/>
+         <animation-step end-time="0.8" fire-w1="0" rotation-angle="-1" end-y="35" svg-index="0"/>
+         <animation-step end-time="0.85" fire-w1="0" rotation-angle="-1" end-y="35" svg-index="0"/>
+         <animation-step end-time="1.3" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+         <animation-step end-time="1.6" fire-w1="0" rotation-angle="0" end-y="34" svg-index="0"/>
+        </superw>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="0" z="1" r="3" name="RightFeet" w1="0" w2="0">
+        <svg-files>
+         <svg file="warrior1_feet.svg"/>
+        </svg-files>
+        <animations>
+         <breathing>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.2" fire-w1="0" rotation-angle="22" end-y="0" svg-index="0"/>
+         </breathing>
+         <walking>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="23" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="-7" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="-30" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+         </walking>
+         <attacking>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="12" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="32" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="20" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="20" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="20" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.125" fire-w1="0" rotation-angle="20" end-y="0" svg-index="0"/>
+         </attacking>
+         <damaged>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.2" fire-w1="0" rotation-angle="33" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+         </damaged>
+         <die>
+          <animation-step end-time="0.3" fire-w1="0" rotation-angle="-1" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="-1" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.9" fire-w1="0" rotation-angle="-1" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.1" fire-w1="0" rotation-angle="32" end-y="0" svg-index="0"/>
+         </die>
+         <super>
+          <animation-step end-time="0.1" fire-w1="0" rotation-angle="14" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.95" fire-w1="0" rotation-angle="14" end-y="0" svg-index="0"/>
+         </super>
+         <superc>
+          <animation-step end-time="0.125" fire-w1="0" rotation-angle="12" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="30" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.4" fire-w1="0" rotation-angle="12" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.6" fire-w1="0" rotation-angle="12" end-y="0" svg-index="0"/>
+          <animation-step end-time="1" fire-w1="0" rotation-angle="12" end-y="0" svg-index="0"/>
+         </superc>
+         <superw>
+          <animation-step end-time="0.25" fire-w1="0" rotation-angle="3" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.5" fire-w1="0" rotation-angle="44" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.625" fire-w1="0" rotation-angle="18" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.75" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.8" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+          <animation-step end-time="0.85" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.3" fire-w1="0" rotation-angle="17" end-y="0" svg-index="0"/>
+          <animation-step end-time="1.6" fire-w1="0" rotation-angle="13" end-y="0" svg-index="0"/>
+         </superw>
+        </animations>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+   </joint>
+  </joint>
+  <joint xAnch="0.5" yAnch="0" y="0" z="-8" r="0" name="Shadow Space" w1="0" w2="0">
+   <svg-files/>
+   <animations>
+    <breathing>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </breathing>
+    <walking>
+     <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </walking>
+    <attacking>
+     <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </attacking>
+    <damaged>
+     <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </damaged>
+    <die>
+     <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1.1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </die>
+    <super>
+     <animation-step end-time="0.1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.95" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </super>
+    <superc>
+     <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </superc>
+    <superw>
+     <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.625" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.8" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="0.85" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     <animation-step end-time="1.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+    </superw>
+   </animations>
+   <joint xAnch="0.5" yAnch="0.5" y="0" z="0" r="0" name="Shadow" w1="0" w2="0">
+    <svg-files>
+     <svg file="shade.svg"/>
+    </svg-files>
+    <animations>
+     <breathing>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </breathing>
+     <walking>
+      <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </walking>
+     <attacking>
+      <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </attacking>
+     <damaged>
+      <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.2" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </damaged>
+     <die>
+      <animation-step end-time="0.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.9" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </die>
+     <super>
+      <animation-step end-time="0.1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.95" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </super>
+     <superc>
+      <animation-step end-time="0.125" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.4" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </superc>
+     <superw>
+      <animation-step end-time="0.25" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.5" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.625" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.75" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.8" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="0.85" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.3" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+      <animation-step end-time="1.6" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+     </superw>
+    </animations>
+   </joint>
+  </joint>
+ </joint>
+</character>

@@ -1,0 +1,12 @@
+<map name="" background="ground_1.svg">
+ <enemies contains_random_battle="0"/>
+ <all-map-emlemnts>
+  <map-element to-xml="" x="955" y="701" z="0" type="House" r="0" name="Home" svg="straw_home.svg"/>
+  <map-element to-xml="" x="700" y="744" z="0" type="House" r="0" name="Home" svg="straw_home.svg"/>
+  <map-element to-xml="" x="48" y="724" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+  <map-element to-xml="" x="135" y="590" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+  <map-element to-xml="" x="854" y="570" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+  <map-element to-xml="" x="205" y="655" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+  <map-element to-xml="" x="690" y="610" z="0" type="House" r="0" name="Home_1" svg="straw_home.svg"/>
+ </all-map-emlemnts>
+</map>

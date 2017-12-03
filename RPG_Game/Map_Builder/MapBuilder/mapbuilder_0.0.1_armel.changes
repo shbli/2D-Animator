@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sun, 17 Jun 2012 17:49:46 +0300
+Source: mapbuilder
+Binary: mapbuilder
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: unknown <ahmedalshebli@unknown>
+Changed-By: unknown <ahmedalshebli@unknown>
+Description: 
+ mapbuilder - <insert up to 60 chars description>
+Changes: 
+ mapbuilder (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 77c970a02ee6caf48e256fb547334602d227d912 14073102 mapbuilder_0.0.1_armel.deb
+Checksums-Sha256: 
+ d3b4a9f04e25372048781f3442603b360d04f25fe95726cda258c531e0da6ada 14073102 mapbuilder_0.0.1_armel.deb
+Files: 
+ b223e90c4b6c16decdbce8e017fb0a09 14073102 user/other optional mapbuilder_0.0.1_armel.deb
+Maemo-Display-Name: mapbuilder

@@ -1,0 +1,18 @@
+<map name="Map 1_1" background="ground_1.svg">
+ <map-element to-xml="area_1_2.xml" x="960" y="392" z="0" type="Gate" r="0" name="gate" svg="arrow.svg"/>
+ <map-element to-xml="" x="251" y="617" z="0" type="House" r="0" name="house" svg="straw_home.svg"/>
+ <map-element to-xml="" x="387" y="519" z="0" type="Gate" r="0" name="rock" svg="rock01.svg"/>
+ <map-element to-xml="" x="356" y="457" z="0" type="Gate" r="0" name="rock" svg="rock02.svg"/>
+ <map-element to-xml="" x="180" y="494" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="160" y="496" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="142" y="502" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="163" y="480" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="135" y="494" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="113" y="509" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="108" y="501" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="87" y="517" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="0" y="0" z="0" type="Shop" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="64" y="515" z="0" type="Shop" r="0" name="plantred" svg="plant_red.svg"/>
+ <map-element to-xml="" x="44" y="528" z="0" type="Shop" r="0" name="plant red" svg="plant_red.svg"/>
+ <map-element to-xml="" x="171" y="535" z="0" type="Shop" r="0" name="sign" svg="sign.svg"/>
+</map>

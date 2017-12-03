@@ -1,0 +1,66 @@
+<super-attack slow-down="1" affect-all="1" provoke="0" hp-reduction="1" reset-seconds="20" hp--="1" freeze="1" button-svg="fire_attack.svg" freeze-timeout="5" slow-down-timeout="5" power="20" hp-reduction-timout="5">
+ <Before sound="">
+  <effect blur="" x-anchor="0.1" y-anchor="-0.3" svg="fire_slash_super.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0.2" sy="0.2" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="50" y="0" sx="0.5" sy="0.5" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="0.5" sy="0.5" end-t="0.8" r="0"/>
+  </effect>
+  <effect blur="" x-anchor="0.1" y-anchor="-0.30" svg="fire_slash_super.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0.22" sy="0.22" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="75" y="0" sx="0.54" sy="0.54" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="0.54" sy="0.54" end-t="0.775" r="0"/>
+  </effect>
+  <effect blur="" x-anchor="0.1" y-anchor="-0.3" svg="fire_slash_super.svg">
+   <effect-step x="0" opacity="0" y="0" sx="0.24" sy="0.24" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="100" y="0" sx="0.58" sy="0.58" end-t="0.7" r="0"/>
+   <effect-step x="0" opacity="0" y="0" sx="0.58" sy="0.58" end-t="0.75" r="0"/>
+  </effect>
+ </Before>
+ <After sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_02.svg">
+   <effect-step x="10" opacity="0" y="10" sx="5" sy="5" end-t="0" r=""/>
+   <effect-step x="10" opacity="100" y="10" sx="0.5" sy="0.5" end-t="0.2" r=""/>
+   <effect-step x="10" opacity="0" y="10" sx="0" sy="0" end-t="0.45" r=""/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_02.svg">
+   <effect-step x="10" opacity="0" y="10" sx="2.5" sy="2.5" end-t="0" r=""/>
+   <effect-step x="10" opacity="100" y="10" sx="0.25" sy="0.25" end-t="0.2" r=""/>
+   <effect-step x="10" opacity="0" y="10" sx="0" sy="0" end-t="0.45" r=""/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_02.svg">
+   <effect-step x="10" opacity="0" y="10" sx="0.5" sy="0" end-t="0.45" r=""/>
+   <effect-step x="10" opacity="100" y="10" sx="0.5" sy="0.3" end-t="0.50" r=""/>
+   <effect-step x="10" opacity="0" y="10" sx="5" sy="5" end-t="0.80" r=""/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_02.svg">
+   <effect-step x="10" opacity="0" y="10" sx="0.25" sy="0" end-t="0.45" r=""/>
+   <effect-step x="10" opacity="100" y="10" sx="0.25" sy="0.15" end-t="0.50" r=""/>
+   <effect-step x="10" opacity="0" y="10" sx="2.5" sy="2.5" end-t="0.80" r=""/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_04.svg">
+   <effect-step x="10" opacity="0" y="10" sx="1" sy="1" end-t="0.45" r="100"/>
+   <effect-step x="10" opacity="100" y="10" sx="0.6" sy="0.6" end-t="0.60" r="120"/>
+   <effect-step x="10" opacity="0" y="10" sx="1" sy="1" end-t="0.75" r="140"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_05.svg">
+   <effect-step x="10" opacity="0" y="10" sx="1.5" sy="1.5" end-t="0.45" r="-170"/>
+   <effect-step x="10" opacity="100" y="10" sx="0.6" sy="0.6" end-t="0.50" r="-145"/>
+   <effect-step x="10" opacity="0" y="10" sx="1.5" sy="1.5" end-t="0.75" r="-130"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_03.svg">
+   <effect-step x="10" opacity="0" y="10" sx="0" sy="0" end-t="0.45" r="0"/>
+   <effect-step x="10" opacity="100" y="10" sx="0.5" sy="0.5" end-t="0.70" r="-360"/>
+   <effect-step x="10" opacity="0" y="10" sx="1" sy="1" end-t="0.95" r="-720"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_03.svg">
+   <effect-step x="10" opacity="0" y="10" sx="0" sy="0" end-t="0.45" r="0"/>
+   <effect-step x="10" opacity="100" y="10" sx="-0.75" sy="0.75" end-t="0.70" r="-360"/>
+   <effect-step x="10" opacity="0" y="10" sx="-1.5" sy="1.5" end-t="0.95" r="-720"/>
+  </effect>
+  <effect blur="0" x-anchor="0.5" y-anchor="0.5" svg="energy_orange_01.svg">
+   <effect-step x="10" opacity="0" y="10" sx="0" sy="0" end-t="0.45" r="0"/>
+   <effect-step x="10" opacity="100" y="10" sx="0.5" sy="0.5" end-t="0.70" r="360"/>
+   <effect-step x="10" opacity="0" y="10" sx="1" sy="1" end-t="0.95" r="720"/>
+  </effect>
+ </After>
+</super-attack>

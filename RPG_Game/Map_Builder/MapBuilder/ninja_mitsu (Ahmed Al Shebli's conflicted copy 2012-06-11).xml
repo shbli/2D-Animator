@@ -1,0 +1,288 @@
+<character speed="250" w1-xml="ninja_weapon_1.xml" type="ninja" circule-y-offset="80" name="Mitsu" health="20" level="1">
+ <joint xAnch="0.5" yAnch="0" y="9" z="0" r="0" name="Main" w1="0" w2="0">
+  <svg-files/>
+  <animations>
+   <breathing>
+    <animation-step end-time="0" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </breathing>
+   <walking>
+    <animation-step end-time="0" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </walking>
+   <attacking>
+    <animation-step end-time="0" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </attacking>
+   <damaged>
+    <animation-step end-time="0" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </damaged>
+   <die>
+    <animation-step end-time="0" fire-w1="0" rotation-angle="0" end-y="0" svg-index="0"/>
+   </die>
+  </animations>
+  <joint xAnch="0.5" yAnch="0" y="-47" z="0" r="0" name="Body space" w1="0" w2="0">
+   <svg-files/>
+   <animations>
+    <breathing/>
+    <walking/>
+    <attacking/>
+    <damaged/>
+    <die/>
+   </animations>
+   <joint xAnch="0.5" yAnch="0" y="-75" z="-2" r="100" name="Body" w1="0" w2="0">
+    <svg-files>
+     <svg file="mitsu_body.svg"/>
+    </svg-files>
+    <animations>
+     <breathing/>
+     <walking/>
+     <attacking/>
+     <damaged/>
+     <die/>
+    </animations>
+    <joint xAnch="0.5" yAnch="0" y="-31" z="10" r="172" name="Head Space" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <attacking/>
+      <damaged/>
+      <die/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.5" y="0" z="0" r="0" name="Head" w1="0" w2="0">
+      <svg-files>
+       <svg file="mitsu_head.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <attacking/>
+       <damaged/>
+       <die/>
+      </animations>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0" y="25" z="2" r="30" name="LeftArmSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <attacking/>
+      <damaged/>
+      <die/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.1" y="0" z="10" r="-100" name="LeftArm" w1="0" w2="0">
+      <svg-files>
+       <svg file="mitsu_larm.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <attacking/>
+       <damaged/>
+       <die/>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="25" z="-1" r="-9" name="LeftHand space" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing/>
+        <walking/>
+        <attacking/>
+        <damaged/>
+        <die/>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="2" z="0" r="14" name="leftHand" w1="0" w2="0">
+        <svg-files>
+         <svg file="mitsu_lhand.svg"/>
+        </svg-files>
+        <animations>
+         <breathing/>
+         <walking/>
+         <attacking/>
+         <damaged/>
+         <die/>
+        </animations>
+        <joint xAnch="0.5" yAnch="0" y="11" z="-1" r="14" name="weapon" w1="1" w2="1">
+         <svg-files/>
+         <animations>
+          <breathing/>
+          <walking/>
+          <attacking/>
+          <damaged/>
+          <die/>
+         </animations>
+        </joint>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0" y="13" z="-1" r="-67" name="RightArmSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <attacking/>
+      <damaged/>
+      <die/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0" y="0" z="-1" r="120" name="RightArm" w1="0" w2="0">
+      <svg-files>
+       <svg file="mitsu_rarm.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <attacking/>
+       <damaged/>
+       <die/>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="23" z="-2" r="-3" name="RightHandSpace" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing/>
+        <walking/>
+        <attacking/>
+        <damaged/>
+        <die/>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="7" z="0" r="1" name="RightHand" w1="0" w2="0">
+        <svg-files>
+         <svg file="mitsu_rhand.svg"/>
+        </svg-files>
+        <animations>
+         <breathing/>
+         <walking/>
+         <attacking/>
+         <damaged/>
+         <die/>
+        </animations>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0.1" y="35" z="0" r="-30" name="LeftLegSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <attacking/>
+      <damaged/>
+      <die/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0.1" y="0" z="-1" r="0" name="LeftLeg" w1="0" w2="0">
+      <svg-files>
+       <svg file="mitsu_leg.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <attacking/>
+       <damaged/>
+       <die/>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="32" z="-1" r="-2" name="LeftFeetSpace" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing/>
+        <walking/>
+        <attacking/>
+        <damaged/>
+        <die/>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="-1" z="0" r="20" name="LeftFeet" w1="0" w2="0">
+        <svg-files>
+         <svg file="mitsu_feet.svg"/>
+        </svg-files>
+        <animations>
+         <breathing/>
+         <walking/>
+         <attacking/>
+         <damaged/>
+         <die/>
+        </animations>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+    <joint xAnch="0.5" yAnch="0.1" y="35" z="-1" r="15" name="RightLegSpace" w1="0" w2="0">
+     <svg-files/>
+     <animations>
+      <breathing/>
+      <walking/>
+      <attacking/>
+      <damaged/>
+      <die/>
+     </animations>
+     <joint xAnch="0.5" yAnch="0" y="0" z="-1" r="0" name="RightLeg" w1="0" w2="0">
+      <svg-files>
+       <svg file="mitsu_leg.svg"/>
+      </svg-files>
+      <animations>
+       <breathing/>
+       <walking/>
+       <attacking/>
+       <damaged/>
+       <die/>
+      </animations>
+      <joint xAnch="0.5" yAnch="0" y="34" z="0" r="0" name="RightFeetspace" w1="0" w2="0">
+       <svg-files/>
+       <animations>
+        <breathing/>
+        <walking/>
+        <attacking/>
+        <damaged/>
+        <die/>
+       </animations>
+       <joint xAnch="0.5" yAnch="0" y="0" z="-1" r="-22" name="RightFeet" w1="0" w2="0">
+        <svg-files>
+         <svg file="mitsu_feet.svg"/>
+        </svg-files>
+        <animations>
+         <breathing/>
+         <walking/>
+         <attacking/>
+         <damaged/>
+         <die/>
+        </animations>
+       </joint>
+      </joint>
+     </joint>
+    </joint>
+   </joint>
+  </joint>
+  <joint xAnch="0.5" yAnch="0" y="-70" z="-8" r="0" name="Shadow" w1="0" w2="0">
+   <svg-files>
+    <svg file="shade.svg"/>
+   </svg-files>
+   <animations>
+    <breathing/>
+    <walking/>
+    <attacking/>
+    <damaged/>
+    <die/>
+   </animations>
+  </joint>
+  <joint xAnch="0.5" yAnch="0.5" y="55" z="0" r="0" name="Body" w1="0" w2="0">
+   <svg-files>
+    <svg file="mitsu_body.svg"/>
+   </svg-files>
+   <animations>
+    <breathing/>
+    <walking/>
+    <attacking/>
+    <damaged/>
+    <die/>
+   </animations>
+   <joint xAnch="0.5" yAnch="0.5" y="0" z="0" r="0" name="Head" w1="0" w2="0">
+    <svg-files>
+     <svg file="mitsu_head.svg"/>
+    </svg-files>
+    <animations>
+     <breathing/>
+     <walking/>
+     <attacking/>
+     <damaged/>
+     <die/>
+    </animations>
+   </joint>
+  </joint>
+ </joint>
+</character>

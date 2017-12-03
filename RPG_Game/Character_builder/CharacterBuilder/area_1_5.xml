@@ -1,0 +1,13 @@
+<map name="" background="ground_1.svg">
+ <all-map-emlemnts>
+
+ <map-element to-xml="" x="775" y="479" z="0" type="Dummy" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="136" y="320" z="0" type="Dummy" r="0" name="plant" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="482" y="119" z="0" type="Dummy" r="0" name="plant_1" svg="plant_normal.svg"/>
+ <map-element to-xml="" x="776" y="215" z="0" type="House" r="0" name="Home" svg="straw_home.svg"/>
+ <map-element to-xml="" x="721" y="616" z="0" type="Dummy3D" r="0" name="Home" svg="straw_home.svg"/>
+ <map-element to-xml="" x="287" y="429" z="0" type="Dummy3D" r="0" name="Home_1" svg="straw_home.svg"/>
+ <map-element to-xml="area_1_2.xml" x="43" y="602" z="0" type="Gate" r="179" name="Gate Right" svg="arrow.svg"/>
+  </all-map-emlemnts>
+
+</map>

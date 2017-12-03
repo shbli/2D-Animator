@@ -1,0 +1,55 @@
+<super-attack slow-down="0" affect-all="1" provoke="1" hp-reduction="" reset-seconds="30" shake-screen-timeout="0.4" hp--="0" freeze="0" button-svg="warrior_power.svg" shake-screen="1" freeze-timeout="" slow-down-timeout="" power="0" hp-reduction-timout="">
+ <Before sound="">
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_red.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="100" y="200" sx="1" sy="1" end-t="0.5" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="10" sy="10" end-t="0.7" r="360"/>
+  </effect>
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_blue.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="100" y="200" sx="1" sy="1" end-t="0.6" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="10" sy="10" end-t="0.9" r="360"/>
+  </effect>
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_red.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="100" y="200" sx="1" sy="1" end-t="0.55" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="10" sy="10" end-t="0.7" r="360"/>
+  </effect>
+  
+  
+    <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_red.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="50" y="200" sx="1.5" sy="1.5" end-t="0.5" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="13" sy="13" end-t="0.7" r="360"/>
+  </effect>
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_blue.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="50" y="200" sx="1.5" sy="1.5" end-t="0.6" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="13" sy="13" end-t="0.9" r="360"/>
+  </effect>
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_red.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="50" y="200" sx="1.5" sy="1.5" end-t="0.55" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="13" sy="13" end-t="0.7" r="360"/>
+  </effect>
+  
+  
+  
+    <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_red.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="30" y="200" sx="2" sy="2" end-t="0.5" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="16" sy="16" end-t="0.7" r="360"/>
+  </effect>
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_blue.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="30" y="200" sx="2" sy="2" end-t="0.6" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="16" sy="16" end-t="0.9" r="360"/>
+  </effect>
+  <effect blur="" x-anchor="0.5" y-anchor="0.5" svg="provoke_circle_red.svg">
+   <effect-step x="0" opacity="0" y="200" sx="0" sy="0" end-t="0.3" r="0"/>
+   <effect-step x="0" opacity="30" y="200" sx="2" sy="2" end-t="0.55" r="180"/>
+   <effect-step x="0" opacity="0" y="200" sx="16" sy="16" end-t="0.7" r="360"/>
+  </effect>
+ </Before>
+ <After sound=""/>
+</super-attack>

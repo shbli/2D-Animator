@@ -1,0 +1,10 @@
+<super-attack slow-down="0" affect-all="0" provoke="0" hp-reduction="" reset-seconds="" hp--="0" freeze="0" button-svg="" freeze-timeout="" slow-down-timeout="" power="0" hp-reduction-timout="">
+ <Before sound="">
+  <effect blur="0" x-anchor="0.5" y-anchor="1" svg="thunder.svg">
+   <effect-step x="0" opacity="0" y="0" sx="1" sy="2" end-t="0" r="90"/>
+   <effect-step x="0" opacity="80" y="0" sx="-0.5" sy="0.5" end-t="0.1" r="90"/>
+   <effect-step x="0" opacity="0" y="0" sx="1" sy="0" end-t="0.15" r="90"/>
+  </effect>
+ </Before>
+ <After sound=""/>
+</super-attack>

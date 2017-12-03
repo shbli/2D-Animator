@@ -1,0 +1,8 @@
+<map name="Map 1_1" background="ground.svg">
+ <map-element to-xml="" x="418" y="540" z="3" type="House" r="0" name="dummy 1" svg="home3.svg"/>
+ <map-element to-xml="map_1_2.xml" x="933" y="422" z="0" type="House" r="0" name="dummy 2" svg="tree.svg"/>
+ <map-element to-xml="" x="785" y="289" z="0" type="House" r="0" name="dummy 3" svg="home1.svg"/>
+ <map-element to-xml="" x="361" y="337" z="0" type="House" r="0" name="dummy 4" svg="home2.svg"/>
+ <map-element to-xml="" x="483" y="112" z="0" type="House" r="-359" name="dummy 7" svg="tree.svg"/>
+ <map-element to-xml="area_1_1.xml" x="39" y="396" z="0" type="Gate" r="-180" name="gate 1" svg="arrow.svg"/>
+</map>

@@ -1,0 +1,6 @@
+<char_arrow>
+ <bottom_line G="255" R="102" B="204" line_width="5" T="150" blur_radios="15"/>
+ <top_line G="255" R="102" B="204" line_width="5" T="255" blur_radios="1"/>
+ <bottom_elips width="50" G="255" hight="20" R="102" B="204" T="150" blur_radios="20"/>
+ <top_elips width="50" G="255" hight="20" R="102" B="204" T="255" blur_radios="1"/>
+</char_arrow>
